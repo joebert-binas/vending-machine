@@ -1,9 +1,8 @@
-using System;
-using System.Linq;
-using Microsoft.VisualStudio.TestPlatform.CommunicationUtilities;
 using NUnit.Framework;
 using Shouldly;
+using System.Linq;
 using VendingMachine;
+
 namespace Tests
 {
     public class VendingMachineTests
@@ -158,8 +157,6 @@ namespace Tests
              
             expected.ShouldBe(result);
 
-        }
-
-
+        } 
     }
 }
